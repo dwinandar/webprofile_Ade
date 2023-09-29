@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ade's Web Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="blue-circle"></div>
+    <div class="pink-circle"></div>
+    <nav class="glassmorph">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main id="home">
+      <section class="hero glassmorph">
+        <img src="avatar.jpg" alt="profile-img" />
+        <div>
+          <h4 class="text-gray">Hello, I&apos;m</h4>
+          <h1>Ade Dwinandar Ritonga</h1>
+          <p class="text-gray tag">Programmer / Coder / Dreamer</p>
+        </div>
+      </section>
+      <article class="hero-desc glassmorph">
+        <div><i class="ri-restaurant-2-fill"></i> Eat</div>
+        <div><i class="ri-zzz-fill"></i> Sleep</div>
+        <div><i class="ri-code-s-slash-fill"></i> Code</div>
+        <div><i class="ri-repeat-line"></i> Repeat</div>
+      </article>
+      <div class="icons">
+        <a
+          href="https://www.instagram.com/adedwinandarritonga/"
+          target="_blank"
+          class="icon icon--instagram glassmorph"
+        >
+          <i class="ri-instagram-line"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ade-dwinandar-ritonga-93376a290/"
+          target="_blank"
+          class="icon icon--linkedin glassmorph"
+        >
+          <i class="ri-linkedin-line"></i>
+        </a>
+        <a
+          href="https://github.com/dwinandar"
+          target="_blank"
+          class="icon icon--github glassmorph"
+        >
+          <i class="ri-github-line"></i>
+        </a>
+      </div>
+    </main>
+
+    <main id="about">
+      <section class="about glassmorph">
+        <div>
+          <h1>About Me</h1>
+          <br />
+          <p>
+            I am a student at the University of Bina Sarana Informatika with a
+            major in information technology who is interested in programming,
+            especially in web programming. I love building website such as
+            landing page, company profile and many more.
+          </p>
+        </div>
+      </section>
+      <div class="wrap-hobbies">
+        <div class="hobbies glassmorph">
+          <h2>Born</h2>
+          <p>
+            Kabanjahe,<br />
+            North Sumatra,<br />
+            Indonesia
+          </p>
+        </div>
+        <div class="hobbies glassmorph">
+          <h2>Hobbies</h2>
+          <p>Coding</p>
+          <p>Game</p>
+          <p>Music</p>
+        </div>
+      </div>
+    </main>
+
+    <main id="skills">
+      <section class="glassmorph skill-sec">
+        <h1>Skills</h1>
+        <p class="text-gray tag">Here's some of the technology I've use</p>
+        <div class="grid-skill">
+          <div class="card glassmorph">
+            <div class="card-body">
+              <h2>HTML</h2>
+            </div>
+            <figure>
+              <img src="skills/html.png" alt="html-logo" />
+            </figure>
+          </div>
+          <div class="card glassmorph">
+            <figure>
+              <img src="skills/css.png" alt="css-logo" />
+            </figure>
+            <div class="card-body">
+              <h2>CSS</h2>
+            </div>
+          </div>
+          <div class="card glassmorph">
+            <figure>
+              <img src="skills/javascript.png" alt="js-logo" />
+            </figure>
+            <div class="card-body">
+              <h2>JavaScript</h2>
+            </div>
+          </div>
+          <div class="card glassmorph">
+            <figure>
+              <img src="skills/react2.png" alt="react-logo" />
+            </figure>
+            <div class="card-body">
+              <h2>React</h2>
+            </div>
+          </div>
+          <div class="card glassmorph">
+            <figure>
+              <img src="skills/tailwind.png" alt="tw-logo" />
+            </figure>
+            <div class="card-body">
+              <h2>Tailwind</h2>
+            </div>
+          </div>
+          <div class="card glassmorph">
+            <figure>
+              <img src="skills/git.png" alt="git-logo" />
+            </figure>
+            <div class="card-body">
+              <h2>Git</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <main id="contact">
+      <div class="contact glassmorph">
+        <h2>Contact</h2>
+        <p class="text-gray tag">Get in touch with me</p>
+        <form
+          action="https://getform.io/f/8f69c01e-b920-4991-bced-3cdadf1414b4"
+          method="POST"
+        >
+          <label for="name">Name :</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="message">Message :</label>
+          <textarea name="message" placeholder="Enter your message"></textarea>
+          <button>Send Message</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p class="text-gray">
+        Copyright &copy; 2023 - All rights reserved - Ade Dwinandar Ritonga
+      </p>
+      <p class="text-gray">Made with ♥ in Depok, West Java, Indonesia</p>
+    </footer>
+  </body>
+</html>
