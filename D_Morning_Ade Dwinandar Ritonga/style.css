@@ -201,10 +201,9 @@ nav ul li a:hover {
   width: 60px;
   height: 60px;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 2rem;
   border-radius: 50%;
-  transition-property: background-color;
-  transition-duration: 0.25s;
+  transition: background-color 0.25s;
 }
 .icon:hover {
   outline-offset: 4px;
